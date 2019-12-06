@@ -1,16 +1,34 @@
 * {
   text-align: center;
-  color: white;
 }
 
-li.level-item {
+div.main h2 {
+  margin: 2rem 2rem 5rem 2rem;
+  text-align: left;
+  font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+  font-size: 2.8rem;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+li.level-item, li.sensor-item {
   /* background-color: #007833;
   margin: 5rem; */
+  padding: .6rem 2rem;
   box-shadow: 1em 1em 3em rgba(0, 0, 0, 0.5);
   background: linear-gradient(90deg, #e6e6e6, #ececec) padding-box, linear-gradient(to right bottom, #fff, #c8c8c8) border-box;
 }
 
-img {
+li.level-item h3, li.sensor-item h3 {
+  font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+  font-size: 2.8rem;
+  float: left;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+li.level-item img {
   max-width: 30rem;
+  padding: 2rem;
 }
 

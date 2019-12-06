@@ -42,3 +42,27 @@ export const levelData = [
         imgCitation: 'Source: Volkswagon.'
     }
 ]
+
+export const sensorData = [
+    {
+        name: 'Lidar', 
+        description: '',
+        imgSrc: '',
+        imgDesc: '2008 Toyota Camry',
+        imgCitation: 'Source: Toyota.'
+    },
+    {
+        name: 'Radar', 
+        description: '',
+        imgSrc: '',
+        imgDesc: '2008 Toyota Camry',
+        imgCitation: 'Source: Toyota.'
+    },
+    {
+        name: 'Cameras', 
+        description: '',
+        imgSrc: '',
+        imgDesc: '2008 Toyota Camry',
+        imgCitation: 'Source: Toyota.'
+    }
+]
