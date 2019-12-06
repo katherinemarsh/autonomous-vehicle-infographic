@@ -6,17 +6,11 @@
 li.level-item {
   /* background-color: #007833;
   margin: 5rem; */
-  margin: 3.375rem auto;
-  border: solid .1875rem transparent;
-  padding: 0.75rem 4rem;
-  width: 42.25rem;
-  border-radius: 9.125rem;
   box-shadow: 1em 1em 3em rgba(0, 0, 0, 0.5);
   background: linear-gradient(90deg, #e6e6e6, #ececec) padding-box, linear-gradient(to right bottom, #fff, #c8c8c8) border-box;
-  display: inline-block;
 }
 
 img {
-  max-width: 100%;
+  max-width: 30rem;
 }
 
