@@ -1,34 +1,69 @@
-* {
-  text-align: center;
-}
-
 div.main h2 {
-  margin: 2rem 2rem 5rem 2rem;
+  margin: 2rem 2rem 1rem 2rem;
   text-align: left;
   font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
-  font-size: 2.8rem;
+  font-size: 2.2rem;
   text-transform: uppercase;
   font-weight: 800;
 }
 
-li.level-item, li.sensor-item {
+div.main p, ul.notes {
+  font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
+  font-size: 1rem;
+  text-align: left;
+}
+
+div.main p.overview {
+  margin: .4rem 2rem 2rem 2rem;
+}
+
+ol.levels {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+li#level-item, li.sensor-item {
   /* background-color: #007833;
   margin: 5rem; */
+  display: grid;
+  grid-template-columns: 35% 65%;
   padding: .6rem 2rem;
   box-shadow: 1em 1em 3em rgba(0, 0, 0, 0.5);
   background: linear-gradient(90deg, #e6e6e6, #ececec) padding-box, linear-gradient(to right bottom, #fff, #c8c8c8) border-box;
 }
 
-li.level-item h3, li.sensor-item h3 {
+li#level-item p {
+  margin: 0;
+}
+
+li#level-item .text p.label {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+li#level-item ul.notes {
+  margin-top: .4rem;
+}
+
+li#level-item .car{
+  text-align: center;
+}
+
+li#level-item h3, li.sensor-item h3 {
   font-family: "Source Sans Pro","Helvetica Neue","Helvetica","Roboto","Arial",sans-serif;
-  font-size: 2.8rem;
-  float: left;
+  font-size: 2.2rem;
   text-transform: uppercase;
   font-weight: 800;
 }
 
-li.level-item img {
-  max-width: 30rem;
-  padding: 2rem;
+li#level-item img {
+  max-width: 20rem;
+  padding: 2rem 2rem 0 2rem;
 }
 
+p.carNote {
+  color: rgb(161, 161, 161);
+  font-size: .2rem;
+  font-weight: 600;
+  padding: 0rem 2rem 0 2rem;
+}
